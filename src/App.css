@@ -1,0 +1,236 @@
+body {
+  text-align: center;
+  background-color: #231f20;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  justify-content: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.logo {
+  width: 10vw;
+}
+
+.nav-item,
+.sm-item {
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(202, 200, 200);
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+ul > li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.social-media {
+  width: 90px;
+  display: flex;
+}
+.social-media > img {
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  width: 24px;
+  height: 24px;
+}
+
+.navigation {
+  border-top: 1px solid rgb(224, 223, 223);
+  border-bottom: 1px solid rgb(224, 223, 223);
+  width: 1200px;
+  margin: 0 auto;
+}
+.poster {
+  margin: 2rem;
+  height: 25vw;
+}
+
+/*ELEMENTS*/
+button {
+  cursor: pointer;
+  
+}
+
+button:hover {
+  opacity: 0.7;
+}
+/*MAIN CONTENT*/
+
+.ships-list {
+  display: flex;
+  flex-direction: column;
+margin: auto;
+  width: 800px;
+  
+}
+
+.ship-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #292d34;
+  width: 50vw;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+/*SHIP DETAILS*/
+
+.ship {
+  margin: 1rem;
+}
+
+.ship-wrapper {
+  display: flex;
+  padding: 1rem;
+  width: 80vw;
+  background-color: #1d2026;
+  justify-content: center;
+  height: 40vh;
+}
+
+.ship-description {
+  border-left: 0.5px solid red;
+  padding: 2rem;
+}
+
+.ship-box {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80vw;
+  justify-content: center;
+  height: 30vh;
+}
+
+.ship-details {
+  display: flex;
+  gap: 2rem;
+}
+.ship-details-1 .ship-details-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80vw;
+}
+.name-close {
+  display: flex;
+}
+.close {
+  cursor: pointer;
+  right: 0;
+}
+
+.subtitle {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+
+/*pilots*/
+
+.pilots-wrapper,
+.films-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80vw;
+  gap: 1rem;
+  margin: auto;
+  margin-top: 60px;
+}
+
+
+.pilot-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+/*
+.pilot-image {
+  width: 20%;
+  margin: 1rem;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid blue;
+
+}
+*/
+.pilot-name {
+  background-color: pink;
+  height: 60px;
+}
+
+/*FORM*/
+
+.form-wrapper {
+  width: 30vw;
+  height: 45vh;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: white;
+  color: black;
+}
+
+.login-form {
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.logn-form > h2 {
+  margin-top: 1.5rem;
+}
+
+.login-form > label {
+  margin: 0.5rem;
+}
+.login-form > input {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(209, 207, 207);
+  border: none;
+}
+
+.login-btn {
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  padding: 0.5rem;
+  background-color: rgb(245, 245, 103);
+  font-weight: bold;
+}
+
+.view-more-btn {
+  margin: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem;
+  background-color: rgb(245, 245, 103);
+  color: white;
+}
+
